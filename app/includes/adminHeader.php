@@ -1,5 +1,5 @@
 <header>
-        <a href="<?php echo BASE_URL . '/index.php'?>" class="logo">
+        <a class="logo" href="<?php echo BASE_URL . '/index.php'; ?>" >
             <img src="../../assets/images/logo.png" alt="logo" class="bitfest-logo" />
             <h1 class="logo-text"><span>Bit</span>Fest</h1>
         </a>

@@ -44,7 +44,7 @@ guestOnly();
                 </div>
             
             <div>
-                <button type="submit" name="login-btn" class="btn big-btn">Login</button>
+                <button type="submit" name="login-btn" class="btn btn-big">Login</button>
             </div>
 
             <p>Or <a href="<?php echo BASE_URL . '/register.php'?>"><b> Sign Up</b></a></p>    

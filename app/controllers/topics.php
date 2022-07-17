@@ -14,11 +14,11 @@ $topics=selectAll($table);
 
 if(isset($_POST['add-topic']))
 {   adminOnly();
-    #$errors = validateTopic($_POST);
+    $errors = validateTopic($_POST);
     if(count($errors)=== 0){
-    unset($_POST['add-topic'], $_POST['image']);
+    unset($_POST['add-topic']);
      $topic_id = create($table, $_POST);
-        $_SESSION['message'] = "Event added succesfuly";
+        $_SESSION['message'] = "Topic created succesfuly";
         $_SESSION['type'] = 'success';
         header('location: ' . BASE_URL . '/admin/topics/index.php');
         exit(); 

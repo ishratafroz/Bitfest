@@ -50,7 +50,7 @@ guestOnly();
             <input type="password" name="passwordConf" value="<?php echo $passwordConf; ?>" class="text-input" />
         </div>
             <div>
-                <button type="submit" name="register-btn" class="btn big-btn">Register</button>
+                <button type="submit" name="register-btn" class="btn btn-big">Register</button>
             </div>
             <p>Or <a href="<?php echo BASE_URL . '/login.php' ?>"><b>Sign in</b></a></p>
     </form>

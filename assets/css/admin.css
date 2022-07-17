@@ -1,24 +1,24 @@
-body{
+body {
     color: #464646;
 }
 header {
     background: #3b0501;
 }
 
-.admin-wrapper{
+.admin-wrapper {
     display: flex;
     height: calc(100% - 66px);
    
 }
 
-.admin-wrapper .left-sidebar{
+.admin-wrapper .left-sidebar {
     flex:2;
     height:100%;
     background: #550701;
 }
 
 
-.admin-wrapper .left-sidebar ul{
+.admin-wrapper .left-sidebar ul {
     list-style: none;
     margin:0px;
     padding: 0px;
@@ -26,18 +26,18 @@ header {
 }
 
 
-.admin-wrapper .left-sidebar ul li a{
+.admin-wrapper .left-sidebar ul li a {
     padding: 18px;
     display:block;
     border-bottom: 1px solid #030000;
 }
 
 
-.admin-wrapper .left-sidebar ul li a:hover{
+.admin-wrapper .left-sidebar ul li a:hover {
     background: #2d0401;
 }
 
-.admin-wrapper .admin-content{
+.admin-wrapper .admin-content {
     flex:8;
     height:100%;
     border: 1px solid red;
@@ -52,35 +52,35 @@ header {
     margin-bottom: 1.5rem;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
     font-size: 1.1rem;
 }
 
-th,td{
+th,td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #B8B7B7;
 }
 
 
-.edit{
+.edit {
     color: green;
 }
-.delete{
+.delete {
     color:red;
 }
-.publish{
+.publish {
     color: blue;
 }
 .edit:hover,
 .delete:hover,
-.publish:hover{
+.publish:hover {
     text-decoration: underline;
 }
 
 
-form div{
+form div {
     margin-bottom: 15px;
 }

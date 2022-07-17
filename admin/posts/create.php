@@ -35,8 +35,8 @@ adminOnly();
 
      <div class="admin-content">
     <div class="button-group">
-        <a href="create.php" class="btn big-btn">Add Post</a>
-        <a href="index.php" class="btn big-btn">Manage Posts</a>
+        <a href="create.php" class="btn btn-big">Add Post</a>
+        <a href="index.php" class="btn btn-big">Manage Posts</a>
     </div>
 <div class="content">
 <h2 class="page-title">Add Posts</h2>
@@ -81,7 +81,7 @@ adminOnly();
         <?php endif; ?> 
      </div>
 <div>
-    <button type="submit" name="add-post"  class="btn big-btn">Add Post</button>
+    <button type="submit" name="add-post"  class="btn btn-big">Add Post</button>
 </div>
 </form>
 </div>

@@ -34,8 +34,8 @@ adminOnly(); ?>
 
 <div class="admin-content">
     <div class="button-group">
-        <a href="create.php" class="btn big-btn">Add Topic</a>
-        <a href="index.php" class="btn big-btn">Manage Topics</a>
+        <a href="create.php" class="btn btn-big">Add Topic</a>
+        <a href="index.php" class="btn btn-big">Manage Topics</a>
     </div>
 <div class="content">
 <h2 class="page-title">Edit Topic</h2>
@@ -46,14 +46,14 @@ adminOnly(); ?>
 <div>
 
     <label>Name</label>
-    <input type="text" name="name" value="<?php echo $name; ?> " class="text-input">
+    <input type="text" name="name" value="<?php echo $name; ?>" class="text-input">
 </div>
 <div>
     <label>Description</label>
     <textarea name="description" id="body"><?php echo $description; ?></textarea>
 </div>
 <div>
-    <button type="submit" name="update-user" class="btn btn-big">Update Topic</button>
+    <button type="submit" name="update-topic" class="btn btn-big">Update Topic</button>
 </div>
 </form>
 </div>

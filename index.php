@@ -1,5 +1,6 @@
 <?php include("path.php");
 
+include(ROOT_PATH . "/app/database/db.php");
 include(ROOT_PATH . "/app/controllers/topics.php");
 
 $posts = array();
@@ -47,29 +48,18 @@ else{
 	<link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-
-
 <body>
 
 	<?php include(ROOT_PATH . "/app/includes/header.php") ?>
 	<?php include(ROOT_PATH . "/app/includes/messages.php") ?>
-
-	
 	<div class="page-wrapper">
-
-
-
 		<!-- Activities -->
-
 		<div class="post-slider">
-			<h1 class="post-slider slider-title">Activites</h1>
-			<i class="fas fa-angle-left prev"></i>
-			<i class="fas fa-angle-right next"></i>
-
+			<h1 class="slider-title">Trending Posts</h1>
+			<i class="fas fa-chevron-left prev"></i>
+			<i class="fas fa-chevron-right next"></i>
 			<div class="post-wrapper">
-				
 				<?php foreach($posts as $post): ?>
-
 				<div class="post">
 					<img src="<?php echo BASE_URL . '/assets/images/' . $post['image'];?>" alt="" class="slider-image" />
 					<div class="post-info">
@@ -83,14 +73,10 @@ else{
 			</div>
 		</div>
 		<!-- //post-slider -->
-
 		<!-- content-->
-
 		<div class="content clearfix">
-
 			<!-- Main Content -->
-
-			<div class="main-content">
+         	<div class="main-content">
 				<h1 class="recent-post-title"><?php echo $posts_title?></h1>
 				<?php foreach($posts_p as $post): ?>
 					<div class="post clearfix">
@@ -109,8 +95,6 @@ else{
 					</div>
 				<?php endforeach; ?>
 				
-				
-
 			</div>
 
 			<!-- //content-->
