@@ -38,7 +38,7 @@
 
 				</ul>
 			</div>
-     <div class="footer-section contact-form">
+     		<div class="footer-section contact-form">
 				<h2>Contact us</h2> <br>
 				<br />
 				<form action="index.html" method="post">

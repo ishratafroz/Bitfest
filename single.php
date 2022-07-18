@@ -30,11 +30,9 @@ $topics = selectAll('topics');
 </head> 
 <body>
 <!--Facebook Page plugin SDK-->
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="ztfpFycm">
 
-</script>
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="wNKcTTiA"></script>
 
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 
@@ -59,10 +57,9 @@ $topics = selectAll('topics');
     <!--//Main Content-->
     <!--Sidebar-->
     <div class="sidebar single">
-        <div class="fb-page" data-href="https://www.facebook.com/BitFestCSE/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BitFestCSE/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BitFestCSE/">BitFest</a></blockquote></div>
+    <div class="fb-page" data-href="https://www.facebook.com/BitFestCSE" data-tabs="" data-width="" data-height="130" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BitFestCSE" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BitFestCSE">BitFest</a></blockquote></div>
 
-
-        <div class="section popular ">
+    <div class="section popular ">
             <h2 class="section-title">All Activites</h2>
             <?php foreach ($posts as $p):?>
             <div class="post clearfix">
