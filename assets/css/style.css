@@ -445,12 +445,21 @@ margin: 20px;
     transition: all 0.3s;
 }
 /* AUTH PAGES */
+
+
+.login-grad {
+    height: 100%;
+    background-color: #bfbfbf;
+    background-image: linear-gradient(to top, #3b0501, #fafafa);
+}
+
 .auth-content {
     width: 30%;
     margin: 50px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(240, 192, 192);
     border-radius: 5px;
+    color: #181818;
 }
 .auth-content .form-title {
     text-align: center;
@@ -464,6 +473,10 @@ margin: 20px;
 }
 .auth-content form p a {
     text-decoration: underline;
+}
+.auth-content form p a:hover {
+    color:#181818 ;
+    transition: .3s;
 }
 
 /*FOOTER */
@@ -485,10 +498,15 @@ margin: 20px;
 .footer .footer-content h2 {
     color: white;
 }
-.footer .footer-content .about h1 span {
+.footer .footer-content .about h2 span {
 color:aqua;
 }
 .footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .footer-content .about .contact .logo-text span {
     display: block;
     font-size: 1.1em;
     margin-bottom: 8px;
@@ -540,7 +558,7 @@ font-size: 1.2em;
     font-family: 'Lora',serif;
 }
 .footer .footer-bottom {
-    background:#3b0501;
+    background:#e4d7d7;
     color:#858585;
     height: 50px;
     width: 100%;
