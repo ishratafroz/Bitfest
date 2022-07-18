@@ -33,8 +33,8 @@ adminOnly();
 
      <div class="admin-content">
     <div class="button-group">
-        <a href="create.php" class="btn big-btn">Add Post</a>
-        <a href="index.php" class="btn big-btn">Manage Posts</a>
+        <a href="create.php" class="btn btn-big">Add Post</a>
+        <a href="index.php" class="btn btn-big">Manage Posts</a>
     </div>
 <div class="content">
 <h2 class="page-title">Manage Posts</h2>
@@ -50,15 +50,15 @@ adminOnly();
     <?php foreach ($posts as $key => $post):?>
         <tr>
         <td><?php echo $key+1; ?></td>
-        <td><?php echo $post['title']; ?></td>
+        <td><?php echo $post['title'] ?></td>
             <td>Awa</td>
 <td><a href="edit.php?id=<?php echo $post['id']; ?>" class="edit">Edit</a></td>
 <td><a href="index.php?delete_id=<?php echo $post['id']; ?>" class="delete">Delete</a></td>
 <?php if($post['published']):?>
 <td><a href="edit.php?published=0&p_id=<?php echo $post['id'] ?>" class="unpublish">Unpublish</a></td>
-<?php else:?>
+<?php else: ?>
 <td><a href="edit.php?published=1&p_id=<?php echo $post['id'] ?>" class="Publish">Publish</a></td>
-<?php endif;?>
+<?php endif; ?>
         </tr>
         <?php endforeach;?>
     </tbody>

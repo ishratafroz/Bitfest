@@ -1,7 +1,6 @@
 <?php
 include(ROOT_PATH . "/app/database/db.php");
 include(ROOT_PATH . "/app/helpers/validatePost.php");
-
 include(ROOT_PATH . "/app/helpers/middleware.php");
 
 $table = 'posts';
@@ -81,7 +80,7 @@ if(isset($_GET['published']) && isset($_GET['p_id'])){
     adminOnly();
     $published = $_GET['published'];
     $p_id = $_GET['p_id'];
-    $count = update($table, $p_id,  ['published'=>$published]);
+    $count = update($table, $p_id,  ['published'=> $published]);
     $_SESSION['message']= "Post published state changed.";
     $_SESSION['type'] = 'success';
     header('location: ' . BASE_URL . 'admin/posts/index.php');

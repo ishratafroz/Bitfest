@@ -34,8 +34,8 @@ adminOnly();
      <!--Admin Content-->
          <div class="admin-content">
         <div class="button-group">
-            <a href="create.php" class="btn-big-btn">Add User</a>
-            <a href="index.php" class="btn-big-btn">Manage Users</a>
+            <a href="create.php" class="btn btn-big">Add User</a>
+            <a href="index.php" class="btn btn-big">Manage Users</a>
             </div>
             <div class="content">
                 <h2 class="page-title">Edit User</h2>

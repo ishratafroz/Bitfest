@@ -56,7 +56,7 @@ adminOnly();
     <?php foreach ($admin_users as $key => $user):?>
         <tr>
             
-        <td><?php echo $key+1;?></td>
+        <td><?php echo $key+1; ?></td>
          <td><?php echo $user['username']; ?></td>
           <td><?php echo $user['email']; ?></td>
          <td><a href="edit.php?id=<?php echo $user['id']; ?>" class="edit">Edit</a></td>

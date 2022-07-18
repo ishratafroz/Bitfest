@@ -45,14 +45,14 @@ adminOnly();
 <form action="create.php" method="post">
 <div>
     <label>Name</label>
-    <input type="text" name="name"  value ="<?php echo $name?>"class="text-input"/>
+    <input type="text" name="name"  value ="<?php echo $name ?>" class="text-input"/>
 </div>
 <div>
     <label>Description</label>
-    <textarea name="description" id="body"> <?php echo $description?></textarea>
+    <textarea name="description" id="body"> <?php echo $description ?></textarea>
 </div>
 <div>
-    <button type="submit" name="add-topic" class="btn big-btn">Add Topic</button>
+    <button type="submit" name="add-topic" class="btn btn-big">Add Topic</button>
 </div>
 </form>
 </div>

@@ -68,7 +68,8 @@ $topics = selectAll('topics');
             <div class="post clearfix">
             <img src="<?php echo BASE_URL . '/assets/images/' . $p['image'];?>" alt="event 2022" />
             <a href="single.php?id=<?php echo $p['id'];?>" 
-            class="title"><h4><?php echo $p['title'];?></h4></a>
+            class="title">
+            <h4><?php echo $p['title'];?></h4></a>
           </div>
           <?php endforeach;?>
         </div>

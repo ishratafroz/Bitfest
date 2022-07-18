@@ -59,14 +59,14 @@ adminOnly();
     <select name="topic_id" class="text-input">
 <option value=""></option>
 
-<?php foreach ($topics as $key => $topic):?>
-  <?php if (!empty($topic_id) && $topic_id == $topic['id']):?>
- <option selected value="<?php echo $topic['id']?>"><?php echo $topic['name'];?></option>
+<?php foreach ($topics as $key => $topic): ?>
+  <?php if (!empty($topic_id) && $topic_id == $topic['id']): ?>
+ <option selected value="<?php echo $topic['id'] ?>"><?php echo $topic['name'] ?></option>
    <?php else: ?>
                                    
 <option value="<?php echo $topic['id']?>"><?php echo $topic['name'];?></option>
 <?php endif; ?> 
-<?php endforeach;?>
+<?php endforeach; ?>
     </select>
 </div>
 <div>
@@ -79,7 +79,7 @@ adminOnly();
   <input type="checkbox" name="published" checked> Publish
       </label>
         <?php endif; ?> 
-     </div>
+</div>
 <div>
     <button type="submit" name="add-post"  class="btn btn-big">Add Post</button>
 </div>

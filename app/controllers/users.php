@@ -1,10 +1,10 @@
 <?php
 include(ROOT_PATH . "/app/database/db.php");
-
 include(ROOT_PATH . "/app/helpers/middleware.php");
 include(ROOT_PATH . "/app/helpers/validateUser.php");
+$table = 'users';
 
-
+$admin_users = selectAll($table);
 $id= '';
 $admin ='';
 $errors = array();
@@ -12,8 +12,7 @@ $username = '';
 $email = '';
 $password = '';
 $passwordConf = '';
-$table = 'users';
-$admin_users = selectAll($table);
+
 
  function loginUser( $user)
 {
@@ -35,7 +34,7 @@ if(isset($_POST['register-btn']) || isset($_POST['create-admin']))
     $errors = validateUser($_POST);
     if(count($errors)===0){
    
-    unset($_POST['register-btn'], $_POST['passwordConf'], $_POST['remember'],$_POST['create-admin']);
+    unset($_POST['register-btn'], $_POST['passwordConf'],$_POST['create-admin']);
    
     $_POST['password']=password_hash($_POST['password'], PASSWORD_DEFAULT);
 
@@ -83,7 +82,7 @@ if(isset($_POST['update-user'])){
 
         $_POST['admin'] = isset($_POST['admin']) ? 1  : 0;
         //debug($_POST);
-        $user_id = update($table, $id, $_POST);
+        $count = update($table, $id, $_POST);
         $_SESSION['message'] ='Admin user updated successfully';
         $_SESSION['type'] ='success';
         header('location: ' . BASE_URL . '/admin/users/index.php');

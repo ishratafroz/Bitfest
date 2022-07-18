@@ -39,6 +39,14 @@ a {
     padding: .7rem 1.3rem;
     line-height: 1.3rem;
 }
+
+.big-btn {
+  padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    background: #ffffff;
+    color: #3b0501;
+}
+
 .btn:hover {
     color:white !important;
     background: #006669;

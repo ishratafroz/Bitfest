@@ -31,7 +31,7 @@ if(isset($_POST['add-topic']))
     if(isset($_GET['id'])){
         $id = $_GET['id'];
         $topic = selectOne($table, ['id' => $id]);
-        
+        $id = $topic['id'];
         $name = $topic['name'];
         $description = $topic['description'];
     }

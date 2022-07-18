@@ -1,5 +1,7 @@
 <?php include("../path.php");?>
-<?php include(ROOT_PATH . "../app/controllers/users.php");?>
+<?php include(ROOT_PATH . "../app/controllers/users.php");
+adminOnly();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,8 +44,9 @@
 
             <div class="content">
                 <h2 class="page-title">Dashboard</h2>
+                <?php include(ROOT_PATH . "/app/includes/messages.php")?>
                
-                
+             <!-- ja iccha khushi likho -->   
 
             </div>
 
