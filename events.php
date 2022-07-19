@@ -35,16 +35,20 @@
 					<img src="<?php echo BASE_URL . '/assets/images/fifa.jpg' ?>" alt="" class="slider-image" />
 					<div class="post-info">
 						<h4>Gaming Contest(FIFA)</h4>
-					
-				 <button class="btn big-btn" onclick="location.href='assets/images/folder/FIFA.pdf';">Participants List</button> </div>
-				</div>
+	 <button class="btn big-btn" onclick="location.href='assets/images/folder/FIFA.pdf';">Participants List</button> 
+	 <button class="btn big-btn" onclick="location.href='assets/images/folder/fifa1.pdf';">rules</button>
+               
+	</div>
+               </div>
 
                 <div class="post">
 					<img src="<?php echo BASE_URL . '/assets/images/hkt.jpg' ?>" alt="" class="slider-image" />
 					<div class="post-info">
 						<h4>Hackathon</h4>
 						<button class="btn big-btn" onclick="location.href='assets/images/folder/Hackathon.pdf';">Teams List</button>
-
+					<button class="btn big-btn" onclick="location.href='assets/images/folder/hkt1.pdf';">rules</button>
+						
+						
 					</div>
 				</div>
                 <div class="post">
@@ -52,6 +56,10 @@
 					<div class="post-info">
 						<h4>Porgramming Contest</h4>
 						<button class="btn big-btn" onclick="location.href='assets/images/folder/IUPC.pdf';">Teams List</button>
+						
+						<button class="btn big-btn" onclick="location.href='assets/images/folder/cp1.pdf';">rules</button>
+						
+							
 					</div>
 				</div>
                 <div class="post">
@@ -59,6 +67,9 @@
 					<div class="post-info">
 						<h4>IT Business Case Study</h4>
 						<button class="btn big-btn" onclick="location.href='assets/images/folder/case.pdf';">Teams List</button>
+						<button class="btn big-btn" onclick="location.href='assets/images/folder/case1.pdf';">Problem Description</button>
+								
+						
 					</div>
 				</div>
                 <div class="post">
@@ -66,6 +77,8 @@
 					<div class="post-info">
 						<h4>Line Follower Robot</h4>
 						<button class="btn big-btn" onclick="location.href='assets/images/folder/LFR.pdf';">Teams List</button>
+						<button class="btn big-btn" onclick="location.href='assets/images/folder/lfr1.pdf';">rules</button>
+						
 					</div>
 				</div>
                 <div class="post">
@@ -73,21 +86,30 @@
 					<div class="post-info">
 						<h4>IT QUIZ</h4>
 						<button class="btn big-btn" onclick="location.href='assets/images/folder/it.pdf';">Participants List</button>
+						<button class="btn big-btn" onclick="location.href='assets/images/folder/it1.pdf';">rules</button>
+						
+					
 					</div>
 				</div>
                 <div class="post">
 					<img src="<?php echo BASE_URL . '/assets/images/nfs.jpg' ?>" alt="" class="slider-image" />
 					<div class="post-info">
 						<h4>Gaming Contest(NFS)</h4>
-						<button class="btn big-btn" onclick="location.href='assets/images/folder/NFS.pdf';">Participants List</button>
+		<button class="btn big-btn" onclick="location.href='assets/images/folder/NFS.pdf';">Participants List</button>
+		<button class="btn big-btn" onclick="location.href='assets/images/folder/nfs1.pdf';">rules</button>
+			
 					</div>
 				</div>
                 <div class="post">
 					<img src="<?php echo BASE_URL . '/assets/images/psc.png' ?>" alt="" class="slider-image" />
 					<div class="post-info">
 						<h4>Project Showcase</h4>
-						<button  class="btn big-btn" onclick="location.href='assets/images/folder/PROJECT.pdf';">Teams List</button>
-					</div>
+						
+		<button  class="btn big-btn" onclick="location.href='assets/images/folder/PROJECT.pdf';">Teams List</button>
+		<button class="btn big-btn" onclick="location.href='assets/images/folder/project1.pdf';">rules</button>
+	
+						
+	</div>
 
 				</div>
 			</div>

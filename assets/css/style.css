@@ -179,6 +179,10 @@ a {
           color:#63050d;
         } 
         
+        .section-header {
+            text-align: center;
+            
+        }
 /* POST SLIDER */
 .post-slider {
     position: relative;

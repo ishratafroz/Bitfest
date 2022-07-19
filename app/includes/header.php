@@ -12,7 +12,7 @@
 			<li><a href="<?php echo BASE_URL . '/index.php'?>">Home</a></li>
 			<li><a href="<?php echo BASE_URL . '/events.php'?>">Events</a></li>
 			<li><a href="<?php echo BASE_URL . '/venue.php'?>">Schedule</a></li>
-			<li><a href="<?php echo BASE_URL . '/single.php'?>">Venue</a></li>
+			<li><a href="<?php echo BASE_URL . '/place.php'?>">Venue</a></li>
 			
 	
 			<?php if(isset($_SESSION['id'])): ?>

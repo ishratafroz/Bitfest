@@ -60,7 +60,7 @@ else{
 	<div class="page-wrapper">
 		<!-- Activities -->
 		<div class="post-slider">
-			<h1 class="post-slider slider-title">Trending Posts</h1>
+			<h1 class="post-slider slider-title">Important Notice !!!</h1>
 			<i class="fas fa-chevron-left prev"></i>
 			<i class="fas fa-chevron-right next"></i>
 			<div class="post-wrapper">

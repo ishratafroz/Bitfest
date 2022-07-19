@@ -32,19 +32,21 @@
 					<a href="#">
 					<li>Gallery</li>
 					</a>
-					<a href="#">
-					<li>Terms and Conditions</li>
+				   <a href="#">
+					<li><a href="<?php echo BASE_URL . '/terms.php'?>">Terms and Conditions</a></li>
 					</a>
 
 				</ul>
 			</div>
      		<div class="footer-section contact-form">
+				
 				<h2>Contact us</h2> <br>
 				<br />
-				<form action="index.html" method="post">
-					<input type="email" name="email" class="text-input contact-input" placeholder="Your email address..." />
-					<textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message"></textarea>
-					<button type="submit" class="btn big-btn contact-btn">
+				<form action="https://formspree.io/f/mayvrejw" method="POST">
+					<input type="email" required name="email" class="text-input contact-input" placeholder="Your email address..." />
+					<textarea rows="4" required name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+					
+					<button type="submit" name="submit" class="btn big-btn contact-btn" >
 						<i class="fas fa-envelope"> Send</i>
 					</button>
 				</form>
