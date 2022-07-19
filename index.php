@@ -123,12 +123,6 @@ else{
 					
 
 
-
-
-						<!--<li><a href="#">Excursion</a></li>
-						<li><a href="#">Farewell</a></li>
-						<li><a href="#">Get Togerther</a></li>
-						<li><a href="#">Admission Festival</a></li>-->
 					</ul>
 
 				</div>

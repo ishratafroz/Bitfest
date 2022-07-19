@@ -41,8 +41,8 @@ a {
 }
 
 .big-btn {
-  padding: .7rem 1.3rem;
-    line-height: 1.3rem;
+  padding: .7rem 0.9rem;
+    line-height: 1.0rem;
     background: #ffffff;
     color: #3b0501;
 }

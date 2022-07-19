@@ -6,7 +6,7 @@ const target= document.querySelector (tab.dataset.tabTarget)
 tabContents.forEach(tabContent => {
     tabContent.classList.remove('active')
     })
-    tabContents.forEach(tab => {
+    tabs.forEach(tab => {
         tab.classList.remove('active')
     })
 tab.classList.add('active')

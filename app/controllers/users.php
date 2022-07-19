@@ -21,6 +21,9 @@ $passwordConf = '';
     $_SESSION['admin'] =$user['admin'];
     $_SESSION['message'] ='You are now logged in';
     $_SESSION['type'] ='success';
+    if(isset($_POST['remember'])){
+        setcookie('username' , $_POST['username'] , time() + 60*60*7);
+    }
     if($_SESSION['admin']){
     header('location: ' . BASE_URL . '/admin/dashboard.php');
            }
@@ -34,7 +37,7 @@ if(isset($_POST['register-btn']) || isset($_POST['create-admin']))
     $errors = validateUser($_POST);
     if(count($errors)===0){
    
-    unset($_POST['register-btn'], $_POST['passwordConf'],$_POST['create-admin']);
+    unset($_POST['register-btn'], $_POST['passwordConf'],$_POST['remember'],$_POST['create-admin']);
    
     $_POST['password']=password_hash($_POST['password'], PASSWORD_DEFAULT);
 
