@@ -55,7 +55,7 @@ if(isset($_POST['add-post'])){
         $_SESSION['type'] = 'success';
         //debug($_POST);
         header("location: " . BASE_URL . "/admin/posts/index.php");
-        exit();
+        //exit();
     }
     else{
         $title = $_POST['title'];

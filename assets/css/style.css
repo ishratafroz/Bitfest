@@ -176,9 +176,9 @@ a {
         min-width: 100%;
      }   
     .page-wrapper a:hover {
-          color:#006669;
+          color:#63050d;
         } 
-    
+        
 /* POST SLIDER */
 .post-slider {
     position: relative;
@@ -193,7 +193,7 @@ a {
     top: 50%;
     right: 30px;
     font-size: 2em;
-    color: #006669;
+    color: #63050d;
     cursor: pointer;
 }
 .post-slider .prev {
@@ -201,7 +201,7 @@ a {
     top: 50%;
     left: 30px;
     font-size: 2em;
-    color: #006669;
+    color: #63050d;
     cursor: pointer;
 }
 
@@ -288,14 +288,14 @@ color: #3b0501;
     position: absolute;
     bottom: 10px;
     right: 10px;
-    border: 1px solid #006669;
+    border: 1px solid #63050d;
     background: transparent;
     border-radius: 0px;
     color: #006669 !important;
 }
 
 .content .main-content .post .read-more :hover {
-    background: #006669;
+    background: #63050d;
     color: white !important;
     transition: .25s;
 }
@@ -310,7 +310,6 @@ color: #3b0501;
     width: 60%;
     padding: 10px;
     float: right;
-    border: 1px solid green;
 }
 .content .main-content .recent-post-title {
 margin: 20px;

@@ -64,7 +64,7 @@ adminOnly();
  <option selected value="<?php echo $topic['id'] ?>"><?php echo $topic['name'] ?></option>
    <?php else: ?>
                                    
-<option value="<?php echo $topic['id']?>"><?php echo $topic['name'];?></option>
+<option value="<?php echo $topic['id']?>"><?php echo $topic['name']; ?></option>
 <?php endif; ?> 
 <?php endforeach; ?>
     </select>

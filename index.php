@@ -44,6 +44,11 @@ else{
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 	<!-- Custom Styling -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
@@ -80,7 +85,7 @@ else{
 				<h1 class="recent-post-title"><?php echo $posts_title ?></h1>
 				<?php foreach($posts as $post): ?>
 					<div class="post clearfix">
-						<img src="<?php echo BASE_URL . '/assets/images/' . $post['image'];?>" alt="" class="post-img">
+						<img src="<?php echo BASE_URL . '/assets/images/' . $post['image'];?>" alt="" class="post-image">
 						<div class="post-preview">
 							<h2><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h2>
 							<i class="fa fa-user"><?php echo $post['username']; ?></i>

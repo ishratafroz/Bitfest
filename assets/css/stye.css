@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin:0px; 
+    height:100%;
+   background: #f6f6f6; 
+   font-family: 'Lora',serif;
+   color: #858585;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Candal',serif;
+    color:#858585;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.btn {
+    padding: .5rem 1rem;
+    background:#5a5858;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1.08em;
+    font-family: 'Lora',serif;
+}
+.btn:hover {
+    color:white !important;
+    background: #3b0501;
+}
+
+header {
+    background:#3b0501; 
+    height: 66px; 
+}
+header * {
+    color:white;
+}
+header .logo {
+    float:left; 
+    height: inherit;
+    position:relative;
+    margin-left: 2em;   
+}
+header .logo .bitfest-logo {
+    height: 55px;
+    padding-top: 10px;
+    position: absolute;  
+}
+header .logo-text {
+    margin: 9px;
+    padding-left: 40px;
+    font-family: 'Candal',serif;
+}
+header .logo-text span {
+        color:#8d1800;
+        font-family: 'Candal', serif;
+}    
+        header ul {
+    float:right; 
+    margin:0px; 
+    padding:0px; 
+    list-style: none;
+}
+    header ul li {
+        float: left;
+        position: relative;
+        font-size: 1em;
+    }
+       header ul li ul {
+         position: absolute;
+         top: 66px;
+         right: 0px ;
+         width:180px; 
+         display: none;
+        z-index: 88888;
+        }
+
+        header ul li:hover ul {
+            display: block;
+        }
+
+        header ul li ul li {
+            width: 100%;
+        } 
+        
+            header ul li ul li a {
+                padding: 10px;
+                color: white;
+                background:#3b0501;
+            }
+                header ul li ul li a:hover {
+                    color: #ffffff;
+                    display: block;
+                    background: #110201;
+                }
+
+                header ul li ul li a.Logout {
+                     color: #140201;
+                }
+            
+        header ul li a {
+            display: block;
+            padding: 21px;
+            font-size: 1.1em; 
+            text-decoration: none;
+        }
+            header ul li a:hover {
+                background: #110200;
+                transition: 0.5s;
+            }
+
+header .menu-toggle {
+    display:none;
+}
+
+/* schedule */
+.section-header {
+    text-align: center;
+    color: #3b140e;
+    padding-bottom: 20px;
+   }
+   [data-tab-content] {
+    display: none;
+   }
+   .active[data-tab-content] {
+    display: block;
+   }
+   .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+   }
+   .tab {
+    cursor: pointer;
+    padding :10px;
+   }
+   .tab.active {
+    background-color: #ffffff;
+   }
+   .tab:hover {
+    background-color: #f6f6f6;
+   }
+   .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+   }
