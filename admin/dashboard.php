@@ -1,5 +1,6 @@
 <?php include("../path.php");?>
 <?php include(ROOT_PATH . "../app/controllers/users.php");
+
 adminOnly();
 ?>
 <!DOCTYPE html>
@@ -47,14 +48,12 @@ adminOnly();
                 <?php include(ROOT_PATH . "/app/includes/messages.php")?>
                
              <!-- ja iccha khushi likho -->   
-
             </div>
 
         </div>
 
         <!--//Admin Content-->
-
-
+ 
 
 
 
